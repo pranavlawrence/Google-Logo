@@ -24,8 +24,19 @@ position: absolute;
 top: -155px;
 right: -155px;
 border-top: 100px solid transparent;
-border-right:100px solid #000;
+border-right:100px solid #fff;
 border-bottom: 100px solid transparent;
 border-left: 100px solid transparent;
 transform: rotate(90deg);
+}
+
+.logo::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -50%;
+    width: 100px;
+    height: 50px;
+    background: #4285f4;
+    transform: translate(-20px,-20px);
 }
