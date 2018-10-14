@@ -11,5 +11,21 @@ body{
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    background: #000;
+    /* background: #000; */
+    border-top: 50px solid #aa4335;
+    border-right: 50px solid #4285f4;
+    border-bottom: 50px solid #34a853;
+    border-left: 50px solid #fbb605;
+}
+
+.logo::before{
+content: '';
+position: absolute;
+top: -155px;
+right: -155px;
+border-top: 100px solid transparent;
+border-right:100px solid #000;
+border-bottom: 100px solid transparent;
+border-left: 100px solid transparent;
+transform: rotate(90deg);
 }
